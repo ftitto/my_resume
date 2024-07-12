@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&display=swap');
 
+:root {
+
+    --background_color: #11192E;
+    --font_color1: #002C53;
+    --font_color2: #9DDBFD;
+    --font_family: "Barlow Condensed", sans-serif;
+    --cor1: #000000
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +21,7 @@
 } */
 
 body {
-    background-color: darkgray;
+    background-image: url(./assets/tecnologia-4k-4000-x-2500-jhhwwcbe8m7ilyau.jpg);
 }
 
 .profile_content {
@@ -28,7 +38,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px;
     gap: 4px;
 }
 
@@ -50,7 +60,8 @@ body {
 }
 
 .my_name {
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: var(--font_family);
+    color: var(--cor1);
     font-weight: 800;
     font-style: normal;
     font-size: 28px;
@@ -59,10 +70,11 @@ body {
 }
 
 .carreer {
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: var(--font_family);
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
+    color: var(--cor1);
     user-select: none;
     margin-bottom: 20px;
 }
@@ -87,7 +99,7 @@ body {
     background-color: transparent;
     position: relative;
     /* overflow: hidden; */
-    border-radius: 50%; /*Alterar Depois*/
+    border-radius: 7px; /*Alterar Depois*/
     cursor: pointer;
     transition: all .3s;
 }
@@ -101,7 +113,7 @@ body {
     background-color: transparent;
     backdrop-filter: blur(0px);
     letter-spacing: 0.8px;
-    border-radius: 50%;  /*Alterar depois*/
+    border-radius: 7px;  /*Alterar depois*/
     transition: all .3s;
     border: 1px solid rgba(156, 156, 156, 0.466);
 }
@@ -113,7 +125,7 @@ body {
     height: 100%;
     background: #181818;
     z-index: -1;
-    border-radius: 50%;  /*Alterar depois*/
+    border-radius: 7px;  /*Alterar depois*/
     pointer-events: none;
     transition: all .3s;
 }
@@ -182,3 +194,154 @@ body {
     backdrop-filter: blur(4px);
 }
 
+.about_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--font_family);
+    font-weight: bold;
+    color: var(--cor1);
+    user-select: none;
+    
+}
+
+.h2_tittle {
+    margin-bottom: 16px;
+}
+
+.about_me p {
+    font-weight: 200;
+    font-weight: bold;
+}
+
+.projects_presentation {
+    font-family: var(--font_family);
+    color: var(--cor1);
+}
+
+.disney-tittle {
+    font-family: var(--font_family);
+    color: black;
+    margin-bottom: 10px;
+}
+
+.pagina_cursos{
+    font-family: var(--font_family);
+    color: var(--cor1);
+    margin-bottom: 10px;
+}
+
+.iforgot{
+    font-family: var(--font_family);
+    color: var(--cor1);
+    margin-bottom: 10px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    user-select: none;
+}
+
+.disney-img {
+    border-radius: 10px;
+    height: 300px;
+    width: 580px;
+}
+
+.curso-img {
+    border-radius: 10px;
+    height: 300px;
+    width: 580px;
+}
+
+.iforgot-img {
+    border-radius: 10px;
+    height: 300px;
+    width: 580px;
+}
+
+.google-img {
+    border-radius: 10px;
+    height: 300px;
+    width: 580px;
+}
+
+.google-site {
+    font-family: var(--font_family);
+    color: var(--cor1);
+    margin-bottom: 10px;
+}
+
+.icons-tittle{
+    font-family: var(--font_family);
+    color: var(--cor1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    user-select: none;
+}
+
+
+.icones {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    width: 900px;
+    margin-top: 30px;
+    gap: 30px;
+    user-select: none;
+}
+
+
+.python-ico {
+    height: 80px;
+    width: 80px;
+}
+
+.html-ico, .css-ico, .git-ico, .sql-ico {
+    height: 80px;
+    width: 80px;
+}
+
+.sql-ico {
+    border-radius: 50%;
+}
+
+.html, .css, .python, .git, .mysql {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-family: var(--font_family);
+    font-size: 20px;
+    color: var(--cor1);
+    user-select: none;
+    font-weight: bold;
+}
+
+/*  */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 900px;
+}
