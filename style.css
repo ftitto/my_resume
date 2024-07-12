@@ -9,19 +9,29 @@
     --cor1: #000000
 }
 
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* header {
-    
-} */
-
 body {
     background-image: url(./assets/tecnologia-4k-4000-x-2500-jhhwwcbe8m7ilyau.jpg);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 900px;
 }
 
 .profile_content {
@@ -87,7 +97,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Github Link */
+/* Github Button */
 
 .Git_btn {
     width: 45px;
@@ -99,7 +109,7 @@ body {
     background-color: transparent;
     position: relative;
     /* overflow: hidden; */
-    border-radius: 7px; /*Alterar Depois*/
+    border-radius: 7px;
     cursor: pointer;
     transition: all .3s;
 }
@@ -113,7 +123,7 @@ body {
     background-color: transparent;
     backdrop-filter: blur(0px);
     letter-spacing: 0.8px;
-    border-radius: 7px;  /*Alterar depois*/
+    border-radius: 7px;
     transition: all .3s;
     border: 1px solid rgba(156, 156, 156, 0.466);
 }
@@ -125,7 +135,7 @@ body {
     height: 100%;
     background: #181818;
     z-index: -1;
-    border-radius: 7px;  /*Alterar depois*/
+    border-radius: 7px;
     pointer-events: none;
     transition: all .3s;
 }
@@ -286,10 +296,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     user-select: none;
 }
-
 
 .icones {
     display: flex;
@@ -328,21 +337,4 @@ body {
     color: var(--cor1);
     user-select: none;
     font-weight: bold;
-}
-
-/*  */
-
-.main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-    background: rgba( 255, 255, 255, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 8.5px );
-    -webkit-backdrop-filter: blur( 8.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 900px;
 }
