@@ -338,3 +338,172 @@ body {
     user-select: none;
     font-weight: bold;
 }
+
+/* Responsividade */
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .main-container{
+        display: flex;
+        justify-content: center;
+        background-color: pink;
+        flex-direction: column;
+    }
+
+    .profile_pic {
+        height: 300px;
+        width: 300px;
+    }
+
+    .my_name{
+        font-size: 56px;
+    }
+
+    .carreer {
+        font-size: 30px;
+    }
+
+    .socials{
+        gap: 60px;
+    }
+
+    .Git_btn, .Linkedin_btn{
+        height: 60px;
+        width: 60px;
+    }
+
+    .h2_tittle{
+        font-size: 40px;
+    }
+
+    .about_me {
+        display: flex;
+        width: 890px;
+        max-width: 880px;
+        word-wrap: wrap;
+    }
+    .about_me p {
+        font-size: 40px;
+    }
+
+    .projects_presentation {
+        font-size: 30px
+    }
+    .disney-tittle, .pagina_cursos, .iforgot, .google-site {
+        font-size: 35px;
+    }
+    .disney-img,.curso-img, .iforgot-img, .google-img {
+        height: 300px;
+        width: 600px;
+    }
+
+    .languages-exp, .projects_presentation {
+        font-size: 40px;
+    }
+
+    .icons-tittle {
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .icones {
+        display: flex;
+        flex-direction: column;
+        height: 1080px;
+        gap: 60px;
+        margin-top: 70px;
+    }
+
+    .html, .css, .python, .git, .mysql {
+        font-size: 40px;
+    }
+
+    .html-ico, .css-ico, .python-ico, .git-ico, .sql-ico{
+        height:120px ;
+        width: 120px ;
+    }
+  }
+
+  /* Continuar daqui */
+
+  @media only screen and (min-width: 375px) and (max-width: 425px) {
+    .main-container{
+        display: flex;
+        justify-content: center;
+        background-color: darkgray;
+        flex-direction: column;
+    }
+
+    .profile_pic {
+        height: 300px;
+        width: 300px;
+    }
+
+    .my_name{
+        font-size: 56px;
+    }
+
+    .carreer {
+        font-size: 30px;
+    }
+
+    .socials{
+        gap: 60px;
+    }
+
+    .Git_btn, .Linkedin_btn{
+        height: 60px;
+        width: 60px;
+    }
+
+    .h2_tittle{
+        font-size: 40px;
+    }
+
+    .about_me {
+        display: flex;
+        width: 890px;
+        max-width: 880px;
+        word-wrap: wrap;
+    }
+    .about_me p {
+        font-size: 40px;
+    }
+
+    .projects_presentation {
+        font-size: 30px
+    }
+    .disney-tittle, .pagina_cursos, .iforgot, .google-site {
+        font-size: 35px;
+    }
+    .disney-img,.curso-img, .iforgot-img, .google-img {
+        height: 300px;
+        width: 600px;
+    }
+
+    .languages-exp, .projects_presentation {
+        font-size: 40px;
+    }
+
+    .icons-tittle {
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .icones {
+        display: flex;
+        flex-direction: column;
+        height: 1080px;
+        gap: 60px;
+        margin-top: 70px;
+    }
+
+    .html, .css, .python, .git, .mysql {
+        font-size: 40px;
+    }
+
+    .html-ico, .css-ico, .python-ico, .git-ico, .sql-ico{
+        height:120px ;
+        width: 120px ;
+    }
+
+  }
